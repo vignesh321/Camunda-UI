@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Camunda Index</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.css" /> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>‌​
+   
+  <script type="text/javascript" src="./request.js"></script>
+
+  <style type="text/css">
+    
+  .container{
+       display:inline-block;
+       max-height: 300px;
+       height: 90%;
+       max-width: 1000px;
+       
+       padding-right: 180px;
+         padding-left: 450px;
+  }
+
+  </style>
+
+</head>
+
+<form>
+	<h1 align="center">Request Form </h1>
+
+<div class="container" align="center">
+
+  <br>
+
+    <label>Approver</label>
+    <input type="text" class="form-control" id="approver" placeholder="Reason" width="50px" cam-variable-name="approver" cam-variable-type="String"> 
+    <br>
+  	<button type="button" class="btn  btn-primary" id="submitButton" onclick="btnSubmit();">Submit </button>
+
+</div>
+
+</form>
+
+ </html>

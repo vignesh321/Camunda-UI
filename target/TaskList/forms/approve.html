@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Approval Form</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.css" />
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.6/js/gijgo.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>‌​
+
+  <script type="text/javascript" src="./approve.js"></script>
+
+
+</head>
+
+<form>
+	<h1 align="center">Approval Form </h1>
+  <h4 align="center"> Please approve or reject the form and submit it for further processing </h4>
+
+<div class="container" align="center">
+
+  <br>
+  <select id="selectOption" name="selectOption" > 
+                <option> Choose option </option>
+                <option value="yes"> Yes </option> 
+                <option value="no"> No </option> 
+  </select>
+  <br><br><br>
+	<button type="button" class="btn  btn-primary" id="submitButton" onclick="btnSubmit();">Submit </button>
+</div>
+
+</form>
+
+
+
+ </html>
